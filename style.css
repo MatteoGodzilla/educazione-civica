@@ -1,5 +1,13 @@
 *{
-	font:courier;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	display: inline;
+}
+
+p,li{
+	font-size: large;
 }
 
 a{
@@ -7,6 +15,11 @@ a{
 	text-decoration:none;
 }
 
-img{
-	width:200px;
+#logo{
+	width:75px;
+	vertical-align: middle;
+}
+
+#goals{
+	color: darkgreen;
 }
