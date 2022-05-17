@@ -6,60 +6,90 @@
 	</head>
 	<body>
 		<div id="header-div">
-			<img id="logo" src="icons/SDG_CIRCLE.png" alt="SDG Logo" />
+			<a href="index.html">
+				<img id="logo" src="icons/SDG_CIRCLE.png" alt="SDG Logo" />
+			</a>
 			<h1>Agenda 2030: Goal 10</h1>
 		</div>
 		<h2>Obiettivo 10: Ridurre le disuguaglianze</h2>
+
+		<a href="index.html">&lt; Torna alla home page</a>
 
 		<p>
 			La disuguaglianza economica di un paese viene misurata con l' indice di Gini.
 			Il coefficiente di Gini è il rapporto tra due aree, definite rispettivamente dalle ricchezze di ogni singolo individuo.
 			<br>
 			Per spiegare come viene calcolata la curva, è utile avere un esempio
-			<table>
+		</p>
+		
+		<div class="center" style="justify-content: space-evenly">
+			<table class="grayBorder">
 				<thead>
 					<tr>
 						<th>Nome e Cognome</th>
 						<th>Ricchezze</th>
 						<th>Indice di Lorenz</th>
+						<th>Indice ideale</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>Mario Rossi</td>
 						<td>1000€</td>
-						<td>0</td>
+						<td>0€</td>
+						<td>0€</td>
 					</tr>
 					<tr>
-						<td>Mario Rossi</td>
+						<td>Franco Casati</td>
+						<td>1500€</td>
 						<td>1000€</td>
-						<td>0</td>
+						<td>2000€</td>
 					</tr>
 					<tr>
-						<td>Mario Rossi</td>
-						<td>1000€</td>
-						<td>0</td>
+						<td>Alessandra Fulgenzi</td>
+						<td>2500€</td>
+						<td>2500€</td>
+						<td>4000€</td>
 					</tr>
 					<tr>
-						<td>Mario Rossi</td>
-						<td>1000€</td>
-						<td>0</td>
+						<td>Tiziana Rossi</td>
+						<td>3000€</td>
+						<td>5000€</td>
+						<td>6000€</td>
 					</tr>
 					<tr>
-						<td>Mario Rossi</td>
-						<td>1000€</td>
-						<td>0</td>
+						<td>Tommaso Rossi</td>
+						<td>6000€</td>
+						<td>8000€</td>
+						<td>8000€</td>
 					</tr>
 				</tbody>
 			</table>
-			
-			[INSERISCI TABELLA ESEMPIO]
-			
+			<img class="grayBorder"  src="icons/esempio-curva-lorenz.png" />
+		</div>
+		<p>
 			Data una serie di individui, li si ordina secondo ricchezza crescente, poi per ognuno si sommano tutte le ricchezze degli individui precedenti nella tabella.
-			
+			In questo modo si ottiene una somma progressiva che racchiude la ricchezza totale fino a quel determinato individuo.
+			<br>
+			In un insieme di persone dove ognuno ha lo stesso livello di ricchezza, la curva ottenuta con questo procedimento è una linea retta.
+			Nel grafico precedente la curva ideale è in rosso e quella effettiva in blu. Più la curva blu è "lontana" dalla rossa, più il tasso di disuguaglianza è alto in quel determinato insieme di persone.
+			<br><br>
+			L' indice di Gini viene calcolato facendo il rapporto tra l'area compresa tra la curva rossa e la curva blu (ovvero tra curva teorica e curva effettiva) / area totale sotto la curva ideale;
+			in altre parole, A / (A + B)
 		</p>
-		<img style="width: 400px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Economics_Gini_coefficient2.svg/1024px-Economics_Gini_coefficient2.svg.png" />
+		<img class="graph" style="height: 50%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Economics_Gini_coefficient2.svg/800px-Economics_Gini_coefficient2.svg.png" alt="">
 
+		<p>
+			Secondo <a href="https://worldpopulationreview.com/country-rankings/gini-coefficient-by-country"> World Population Review</a>, Tra i paesi del mondo, quelli con gli indici di disuguaglianza più alti sono paesi che si trovano in Africa e in Sud America, come per esempio:
+			<ul>
+				<li>Sudafrica (0.630)</li>
+				<li>Namibia (0.591)</li>
+				<li>Suriname (0.579</li>
+				<li>Zambia (0.571)</li>
+				<li>São Tomé e Príncipe (0.563)</li>
+			</ul>
+		</p>
+			
 		<h2 id="goals">Quali sono gli obiettivi?</h2>
 		<ol>
 			<li>Entro il 2030, raggiungere progressivamente e sostenere la crescita del reddito del 40% della popolazione nello strato sociale più basso ad un tasso superiore rispetto alla media nazionale</li>
@@ -77,6 +107,7 @@
 			<li>Rendere più disciplinate, sicure, regolari e responsabili la migrazione e la mobilità delle persone, anche con l’attuazione di politiche migratorie pianificate e ben gestite</li>
 			<br>
 		</ol>
+		<hr>
 		<ol type="a">
 			<li>Attuare il principio del trattamento speciale e differente riservato ai paesi in via di sviluppo, in particolare ai meno sviluppati, in conformità agli accordi dell’Organizzazione Mondiale del Commercio</li>
 			<br>
@@ -85,6 +116,6 @@
 			<li>Entro il 2030, ridurre a meno del 3% i costi di transazione delle rimesse dei migranti ed eliminare i corridoi di rimesse con costi oltre il 5%</li>
 		</ol>
 
-		<a href="index.html">&lt; Torna alla home page</a>
+		
 	</body>
 </html>
