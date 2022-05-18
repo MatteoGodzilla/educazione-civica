@@ -39,6 +39,22 @@ hr{
 	margin-right: auto;
 }
 
+.goalImage{
+	height: 40vh;
+
+}
+
+.goalText{
+	display: block;
+	width: 40vh;
+}
+
+#linkDiv{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 
 #header-div{
 	display: flex;
